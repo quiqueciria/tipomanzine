@@ -1,0 +1,379 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*Esto es para que la tipografía se vean bien*/
+*{
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; }
+
+/* Clear Floated Elements -----*/
+.clearfix:after, .sample#postnormal .text:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+
+
+/* Estilos Generales ---------*/
+body {
+  background: #e15b32; 
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  -webkit-text-size-adjust: 100%;}
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+#container {
+  margin: 0 auto;
+  width: 800px;}
+
+h1  {
+    font: 36px/44px "Syncopate", sans-serif;
+    color: #fff;    
+    font-weight: 900;   }
+
+h2  {
+    font-size: 30px;}
+
+h3  {
+    font-size: 20px: }
+
+h4  {
+    font-size: 18px;}
+
+h5  {
+    font-size: 14px;}
+
+h6  {
+    font-size: 12px;}
+
+p   {
+    font: 16px/20px Chivo, sans-serif;
+    color: #bfbfbf;}
+    p a {
+    border-bottom: 1px dotted #bfbfbf;
+    padding-bottom: 2px;}
+
+.caja-all {
+  width: 720px;
+  float: left;
+  clear: left;
+}
+
+.caja1 {
+  width: 45%;
+  float: left;
+  margin-right: -100%;
+}
+
+.caja2 {
+  width: 31%;
+  margin-left: 55%;
+  float: left;
+  margin-right: -100%;
+}
+
+/*Cabecera---------------------------------------------*/
+#cabecera {
+    margin-top: 12px;
+    padding: 40px 0 80px 70px;
+    background: #2b2a29;    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+/*Estilo de los bloques de texto----------------------------*/
+/* Ejemplo uno ---------*/
+.sample#uno {
+        padding: 80px 0px 80px 80px;
+        background: #fff; }   
+    .sample#uno .text {
+        width: 720px; }
+    .sample#uno p.heading {
+        width: 255px;
+        padding: 30px 0px 5px 8px;
+        color: #fff;
+        background-color: #2b2a29; 
+        font: 10px "Syncopate", sans-serif;
+        font-weight: 800;
+        letter-spacing: 1px;   }
+    .sample#uno h1 {
+        font: 31px/30px "Syncopate", sans-serif;
+        font-weight: 400;
+        margin: 8px 0 1px 0; 
+        color: #2b2a29; }
+    .sample#uno h2 {
+        font: 20px/23px "Average", sans-serif;
+        color: #53514f }
+
+/* Ejemplo dos ---------*/
+.sample#dos {
+    padding: 80px 0 80px 80px;   
+    background: #f7f7f7; }
+    .sample#dos .text {
+    width: 640px; }
+    .sample#dos .body {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px; }
+    .sample#dos p  {
+    font: 16px/20px 'Georgia', serif;
+    color: #2b2a29;}
+        .sample#dos p span {
+        padding: 10px 0 0 0;}
+        .sample#dos p.answer  {
+        color: #787777;
+        padding-bottom: 19px;
+        font-weight: normal}
+    .sample#dos h1  {
+    font: 30px/32px 'Georgia', serif;
+    color: #2b2a29;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;}
+        .sample#dos h1.heading  {
+        font: 20px/20px 'Georgia', serif;
+        color: #e15b32;
+        margin-bottom: 20px;}
+        .sample#dos h1.subheading  {
+        font: 18px/20px "Georgia", serif;
+        margin-bottom: 19px;}
+    .sample#dos hr {
+    background: none repeat scroll 0 0 #e15b32;
+    border: 0 none; 
+    height: 2px;
+    margin: 39px 0 39px;
+    width: 50px; }
+
+/* Ejemplo tres ---------*/
+.sample#tres {
+    background: #fff;
+    overflow: hidden;}
+    .sample#tres .text {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    bottom: 16px;
+    right: 23px;}
+    .sample#tres h1  {
+    font: 150px/145px 'Georgia', serif;
+    font-weight: 400;
+    color: #2b2a29; }
+        .sample#tres h1 span.italic {
+        font-style: italic; }
+        .sample#tres h1 span.kernuno {
+        margin: 0 0 0 6px;  }
+        .sample#tres h1 span.kerndos {
+        margin: 0 0 0 -8px;}
+    .sample#tres p {
+    font: 37px/40px "helvetica", sans-serif;
+    margin: 10px 0 0 0;
+    color: #53514f;   }
+        .sample#tres p strong {
+        font-weight: bold;  }
+        .sample#tres p.footer{
+        letter-spacing: 0.07em;
+        font: 25px/24px "Georgia", serif;}
+        .sample#tres p span{
+        font-style: italic; }
+
+/* Ejemplo cuatro ---------*/
+.sample#cuatro {
+    padding: 80px 0 80px 80px;
+    background: #f7f7f7; }
+    .sample#cuatro .text {
+    width: 720px; }
+    .sample#wired p  {
+    font: 16px/20px 'Aldrich', sans-serif;
+    color: #53514f;
+    margin: 0 0 10px 0;  }
+    .sample#cuatro h1  {
+    font: 40px/35px 'Lilita One', cursive;
+    color: #53514f;
+    letter-spacing: 0.01em;
+    text-indent: -18px;
+    font-weight: 400; }
+    .sample#cuatro h6  {
+    font: 15px "Lato", sans-serif;
+    color: #2b2a29;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+    margin: 7px 0 0 0;  }
+    .sample#cuatro p.heading {
+    font: 16px/20px 'Aldrich', sans-serif;
+    margin: 0 0 10px 0;  }
+
+/* Ejemplo  cinco ---------*/
+.sample#cinco{
+    background: #fff;
+    overflow: hidden;}
+    .sample#cinco .text {
+    width: 720px;
+    height: 385px;
+    position: relative;
+    bottom: 16px;
+    padding-left: 80px}
+    .sample#cinco h1 {
+    font: 35px/37px Chivo, sans-serif;
+    letter-spacing: 1px;
+    color: #e15b32;
+    margin-bottom: 20px;}
+    .sample#cinco table {
+    font: 20px/40px Cousine, sans-serif;
+    width: 500px;
+    text-align: left; }
+        .sample#cinco th {
+        color: #fff;
+        background: #53514f;
+        padding-left: 10px;}
+        .sample#cinco td {
+        border-bottom: 1px solid #e15b32;
+        padding-left: 10px;     }
+        .sample#cinco tbody tr:nth-child(odd) {
+        background: #fcebe5; }
+        .sample#cinco .alinizq {
+        text-align: right;
+        padding-right: 13px;        }
+
+/* Ejemplo seis ---------*/
+.sample#seis {
+    padding: 80px 0 80px 80px;   
+    background: #f7f7f7; }
+    .sample#seis .text {
+    width: 640px;
+    padding-left: 20px;        
+    border-left: 1px solid #53514f; }
+    .sample#seis p {
+    font: 15px/20px 'Sintony', sans-serif;
+    width: 400px;
+    color: #2b2a29;
+    text-indent: 15px;
+    padding-bottom: 5px;    }
+        .sample#seis p span {
+        border-bottom: 1px dotted #53514f;
+            padding-bottom: 0.003em;}
+        .sample#seis p.heading {
+        font: 12px/10px "Sintony", sans-serif;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+        color: #740808;
+        text-indent: 0px;   }
+        .sample#seis p.subheading {
+        font: 10px/0px "Sintony", sans-serif;
+        letter-spacing: 1px;
+        padding-top: 15px;
+        color: #740808;
+        text-indent: 0px;}
+        .sample#seis p.sangria {
+        text-indent: 0px;   }
+    .sample#seis h1 {
+    font: 22px/20px 'Sintony', sans-serif;
+    color: #e15b32;}
+
+/* Footer ---------*/
+footer {
+    margin: 0 auto;
+    width: 720px;
+    padding: 40px 0px 250px 80px;
+    background: #2b2a29;
+    margin-bottom: 50px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+ 	border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;}
+
+/* Botón a CodePen ---------*/
+.sample#botoncodigo {
+    background: #E8E8E8;
+    padding: 3px 0 3px 80px; }
+.sample#botoncodigo:hover {
+    background-color: #3fe132; }
+    .sample#botoncodigo .text {
+    margin: 0 auto;
+    width: 720px;}
+    .sample#botoncodigo p {
+    font: 12px/20px "Roboto";
+    color: #fff; 
+    letter-spacing: 0.02em;
+    text-transform: uppercase;}
+
+/* Ejemplo vacio claro ---------*/
+.sample#quique {
+    background: #F5F5F5;
+    padding: 125px 0 125px 0; }
+    .sample#quique .text {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid #E8E8E8; }
+    .sample#quique p {
+    font: 16px/20px "Roboto";
+    color: #E8E8E8;
+    text-align: center; }
+
+/* Ejemplo vacio oscuro ---------*/
+.sample#quiquedos {
+    background: #EDEDED;
+    padding: 125px 0 125px 0; }
+    .sample#quiquedos .text {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid #DFDFDF; }
+    .sample#quiquedos p {
+    font: 16px/20px "Roboto", sans-serif;
+    color: #DFDFDF;
+    text-align: center; }
