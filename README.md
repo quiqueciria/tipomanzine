@@ -5,9 +5,11 @@ Tipomanzine es una recopilación de composiciones tipográficas con webfonts bas
 
 Como la intención es compartir, debajo de cada ejemplo hay un enlace para ver el código en CodePen y trastear con el.
 
-Tanto las composiciones como el código son completamente libres de uso, por ejemplo si estás diseñando un blog, sírvete de utilizar alguna composiciónes para usarla en el diseño de los posts si lo ves útil.
+Tanto las composiciones como el código son completamente libres de uso, por ejemplo si estás diseñando un blog, sírvete de utilizar alguna composición para usarla en el diseño de los posts si lo ves útil.
 
 Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida. A continuación hay una lista de propuestas a mejorar:
+
+• Edición de textos
 
 • Ajustar a línea base para Firefox y Chrome el 2º ejemplo a dos columnas qué titula así "FEDERICO MARTÍN BAHAMONTES", <a href="http://codepen.io/quiqueciria/pen/uIhji" target="_blank">este</a>.
 
