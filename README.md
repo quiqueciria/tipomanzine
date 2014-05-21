@@ -1,11 +1,24 @@
 Tipomanzine
 ===========
 
-Tipomanzine es una recopilación de composiciones tipográficas con webfonts. 
+Tipomanzine es una recopilación de composiciones tipográficas con webfonts basado en la idea original de Chad Mazzola y su showcase <a href="http://hellohappy.org/beautiful-web-type/" target="_blank">"Beautiful Web Type".</a>
 
-Todas la tipos usadas ahora mismo provienen de Google Fonts
+Como la intención es compartir, debajo de cada ejemplo hay un enlace para ver el código en CodePen y trastear con el.
+
+Tanto las composiciones como el código son completamente libres de uso, por ejemplo si estás diseñando un blog, sírvete de utilizar alguna composiciónes para usarla en el diseño de los post si lo ves útil.
+
+Tipomanzine tiene muchos fallos y cualquier mejora o modificación para bien es bienvenida. A continuación hay una lista de propuestas a mejorar:
+
+• Ajustar a línea base para Firefox y Chrome el 2º ejemplo a dos columnas qué titula así "FEDERICO MARTÍN BAHAMONTES". <a href="http://codepen.io/quiqueciria/pen/uIhji" target="_blank">Este</a>.
+
+• Hacer la web una estructura de rejilla para poder ir ampliando los ejemplo y hacer que se comporte de manera responsive. Algo parecido a esto http://www.vitaedesign.ca/
+
+• Comprobar el render de las tipografías. Investigar este proyecto que sirve las tipos desde un CDN http://brick.im/
+
+• Incluir un blog
+
+• Hacer más composiciones
 
 
-Los ejemplos están sacados de composiciones vistas en revistas y el objetivo es mostrar como es posible obtener prácticamente los mismo resultados que en algo impreso, evidentemente son solo ejemplos, a la hora de usar habría que tener en cuenta el dispositivo en el que se va usar, así como la distancia de lectura.
 
-Basado en la idea original de Chad Mazzola y su showcase <a href="http://hellohappy.org/beautiful-web-type/" target="_blank">"Beautiful Web Type".</a>
+
