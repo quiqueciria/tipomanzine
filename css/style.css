@@ -340,8 +340,9 @@ footer {
 /* Botón a CodePen ---------*/
 .sample#botoncodigo {
     background: #E8E8E8;
-    padding: 3px 0 3px 80px; }
-.sample#botoncodigo:hover {
+    padding: 3px 0 3px 80px;}
+
+.sample#botoncodigo:hover{
     background-color: #3fe132; }
     .sample#botoncodigo .text {
     margin: 0 auto;
@@ -351,6 +352,14 @@ footer {
     color: #fff; 
     letter-spacing: 0.02em;
     text-transform: uppercase;}
+/*Esta es la flechita de "Verlo en CodePen"*/
+    .sample#botoncodigo span {
+	font-family: 'icomoon';
+    color: #fff;
+    font-size: 15px;
+    margin-right: 12px;
+    position: relative;
+    top: 2px;   }
 
 /* Ejemplo vacio claro ---------*/
 .sample#quique {

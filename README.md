@@ -9,6 +9,8 @@ Tanto las composiciones como el código son completamente libres de uso, por eje
 
 Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida. A continuación hay una lista de propuestas a mejorar:
 
+• Mejorar el botón de "Verlo en CodePen". Utilizar una tipografía de iconos decente, ahora esta una fuente solo con la flechita.
+
 • Edición de textos
 
 • Ajustar a línea base para Firefox y Chrome el 2º ejemplo a dos columnas qué titula así "FEDERICO MARTÍN BAHAMONTES", <a href="http://codepen.io/quiqueciria/pen/uIhji" target="_blank">este</a>.
