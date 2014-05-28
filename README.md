@@ -9,7 +9,9 @@ Tanto las composiciones como el código son completamente libres de uso, por eje
 
 Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida. A continuación hay una lista de propuestas a mejorar:
 
-• Mejorar el botón de "Verlo en CodePen". Utilizar una tipografía de iconos decente, ahora esta una fuente solo con la flechita.
+##Mejoras
+- Mejorar el botón de "Verlo en CodePen":
+  - Utilizar una tipografía de iconos decente, ahora esta una fuente solo con la flechita.
 
 • Edición de textos
 
