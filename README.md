@@ -13,7 +13,7 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 ##Progreso
 1. ~~Edición de textos~~
 
-5. Ajustar a línea base para Firefox y Chrome en el 2º ejemplo a dos columnas que titula así "FEDERICO MARTÍN BAHAMONTES". En <a href="http://practice.typekit.com/lesson/typography-is-how-text-looks/">Typekit lessons</a>, hay un ejemplo de dos columnas alineado a rejilla que puede ser interesante consultar.
+5. ~~Ajustar a línea base para Firefox y Chrome en el 2º ejemplo a dos columnas que titula así "FEDERICO MARTÍN BAHAMONTES". En <a href="http://practice.typekit.com/lesson/typography-is-how-text-looks/">Typekit lessons</a>, hay un ejemplo de dos columnas alineado a rejilla que puede ser interesante consultar.~~
 
 3. Composión
 
