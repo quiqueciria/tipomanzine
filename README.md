@@ -4,7 +4,7 @@ Tipomanzine
 Tipomanzine es una recopilación de composiciones tipográficas con webfonts basado en la idea original de Chad Mazzola y su showcase <a href="http://hellohappy.org/beautiful-web-type/" target="_blank">"Beautiful Web Type".</a>
 
 
-Tipomanzine está hecho con la itención de aprender y compartir, por lo que debajo de cada ejemplo encontrarás un botón para ver y trastear con el código en CodePen.
+Tipomanzine está hecho con la intención de aprender y compartir, por lo que debajo de cada ejemplo encontrarás un botón para ver y trastear con el código en CodePen.
 
 Tanto las composiciones como el código son completamente libres de uso, asi que por ejemplo, si estás diseñando un blog, sírvete de utilizar alguna composición para usarla en el diseño de los posts si lo ves útil.
 
