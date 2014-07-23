@@ -325,6 +325,32 @@ p   {
     font: 22px/20px 'Sintony', sans-serif;
     color: #e15b32;}
 
+/* Ejemplo siete ---------*/
+.sample#siete { 
+    padding: 80px 0 80px 80px;   
+    background: #fff; }
+    .sample#siete .text {
+    width: 430px; }
+    .sample#siete h1 {
+    font: 50px/51px "Oswald", sans-serif;
+    color: #e15b32;
+    margin-left: -5px;
+    padding: 10px 0 13px 0 }
+        .sample#siete h1 span {
+        margin: 0 0 0 2px;  }
+    .sample#siete h4 {
+    font: 20px/17px "Enriqueta", serif;
+    color: #53514f; }
+    .sample#siete h5 {
+    font: 24px/17px "Oswald", sans-serif;
+    color: #53514f; }
+    .sample#siete h6 {
+    font: 21px/25px "Enriqueta", serif;
+    color: #893a21;
+    padding-top: 10px; }
+
+
+
 /* Footer ---------*/
 footer {
     margin: 0 auto;
