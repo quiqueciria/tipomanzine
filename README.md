@@ -28,6 +28,7 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 9. Composión
 
 10. Subirlo a BetaBeer para recoger opiniones.
+<<<<<<< HEAD
 
 11. Comunicarme con la gente de CHULOTYPE por si puede ser útil para el proyecto.
 
@@ -35,3 +36,5 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 <h4>Otros</h4>1.  Mejorar el botón de "Verlo en CodePen"(De momento no es lo más importante, hacerlo más adelante)  
 · Utilizar una buena tipografía de iconos, ahora hay una fuente que solo incluye la flecha.  
 · Echar un vistazo al http://icomoon.io, te puedes hacer una tipografía. sólo con iconos que puedes descargar.
+=======
+>>>>>>> FETCH_HEAD
