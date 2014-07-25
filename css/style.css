@@ -64,9 +64,15 @@ a   {
     text-decoration: none; }
 
 h1  {
-    font: 36px/44px "Syncopate", sans-serif;
+    font: 24px/44px "Syncopate", sans-serif;
     color: #fff;    
     font-weight: 900; } 
+
+    @media (min-width: 480px) {
+    h1  {    
+    font: 36px/44px "Syncopate", sans-serif; 
+    font-weight: 900;}
+    }
 
 h2  {
     font-size: 30px;}
@@ -114,13 +120,33 @@ p   {
 /*Cabecera---------------------------------------------*/
 #cabecera {
     margin-top: 10px;
-    padding: 140px 80px 30px;
+    padding: 240px 80px 30px;
     background: #2b2a29;    
     -webkit-border-top-right-radius: 5px;
     -webkit-border-top-left-radius: 5px;
  	border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     overflow: hidden;}
+
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #cabecera {
+    padding: 80px 30px 20px;}
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #cabecera {
+    padding: 110px 60px 20px; }
+    }    
+    
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
+    #cabecera {
+    padding: 140px 80px 30px;}
+    }    
+
+    
 
 /*Estilo de los bloques de texto----------------------------*/
 /* Ejemplo uno ---------*/
@@ -146,6 +172,33 @@ p   {
     font: 20px/23px "Average", sans-serif;
     color: #53514f; }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #uno {
+    padding: 80px 0px 80px 30px; }
+    #uno p.heading {
+    max-width: 135px;
+    padding: 10px 10px 5px 8px;
+    line-height: 15px;  }
+    #uno h1 {
+    font: 26px/27px "Syncopate", sans-serif; }
+    #uno h2 {
+    max-width: 238px; }
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #uno {
+    padding: 80px 0px 80px 60px; }
+    #uno p.heading {
+    max-width: 245px;
+    padding: 10px 80px 5px 8px;
+    line-height: 15px;  }
+    #uno h1 {
+    font: 26px/27px "Syncopate", sans-serif; }
+    #uno h2 {
+    max-width: 238px; }
+    }
 
 /* Ejemplo dos ---------*/
 #dos {
@@ -183,6 +236,30 @@ p   {
     margin: 39px 0 46px;
     width: 50px; }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #dos {
+    padding: 80px 0px 80px 40px;}
+    #dos .text {    
+    margin-right: 20px; }
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #dos {
+    padding: 80px 0px 80px 60px; } 
+    #dos .text {    
+    margin-right: 20px; }
+    }
+
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
+    #dos {
+    padding: 80px 0px 80px 80px; }  
+    #dos .text {    
+    margin-right: 20px; }
+    }
+
 /* Ejemplo tres ---------*/
 #tres {
     height: 635px;
@@ -214,13 +291,41 @@ p   {
         #tres p span {
         font-style: italic; }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #tres {
+    height: 395px;
+    }
+    #tres h1 {
+    font: 95px/80px 'Georgia', serif;   }
+    #tres p {
+    font: 25px/28px "helvetica", sans-serif;}
+        #tres p.credito {
+        font: 15px/20px "Georgia", serif;}
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #tres {
+    height: 439px;
+    }
+    #tres h1 {
+    font: 99px/95px 'Georgia', serif;   }
+    #tres p {
+    font: 25px/28px "helvetica", sans-serif;}
+        #tres p.credito {
+        font: 15px/20px "Georgia", serif;}
+    }
+
+    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
+
 /* Ejemplo cuatro ---------*/
 #cuatro {
     margin-top: -16px;
     padding: 80px 0 80px 80px;
     background: #f7f7f7; }
     #cuatro h1  {
-    font: 40px/35px 'Lilita One', cursive;
+    font: 40px/35px 'Lilita One', sans-serif;
     color: #53514f;
     letter-spacing: 0.01em;
     text-indent: -18px;
@@ -235,6 +340,36 @@ p   {
     font: 16px/20px 'Aldrich', sans-serif;
     margin: 0 0 10px 0;  }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #cuatro {
+    padding: 80px 0px 80px 40px;}
+    #cuatro h1 {
+    font: 30px/29px "Lilita One", sans-serif;
+    text-indent: -15px;}
+    #cuatro h6 {
+    margin-top: 8px;}
+    #cuatro p.heading {
+    font: 14px/19px "Aldrich", sans-serif;
+    margin-bottom: 2px;}
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #cuatro {
+    padding: 80px 0px 80px 60px;}
+    #cuatro h1 {
+    font: 30px/29px "Lilita One", sans-serif;}
+    #cuatro h6 {
+    margin-top: 5px;}
+    #cuatro p.heading {
+    font: 14px/19px "Aldrich", sans-serif;
+    margin-bottom: 2px;}
+    }
+
+    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
+
+
 /* Ejemplo  cinco ---------*/
 #cinco {
     margin-top: -16px;    
@@ -244,12 +379,12 @@ p   {
     margin-top: -13px;
     padding-left: 80px;}
     #cinco h1 {
-    font: 35px/37px Chivo, sans-serif;
+    font: 34px/36px "Chivo", sans-serif;
     letter-spacing: 1px;
     color: #e15b32;
     margin-bottom: 20px;}
     #cinco table {
-    font: 20px/40px Cousine, sans-serif;
+    font: 20px/40px "Cousine", sans-serif;
     width: 500px;
     text-align: left; }
         #cinco th {
@@ -264,6 +399,34 @@ p   {
         #cinco .alinizq {
         text-align: right;
         padding-right: 13px; }
+
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    #cinco .text {
+    padding-left: 40px; }
+    #cinco h1 {
+    font: 22px/22px "Chivo", sans-serif;    }
+    #cinco table {
+    font: 16px/35px "Cousine", sans-serif; 
+    width: 450px;}
+    #cinco .alinizq {
+    padding-right: 73px; }
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    #cinco .text {
+    padding-left: 60px;}
+    #cinco h1 {
+    font: 25px/26px "Chivo", sans-serif;    }
+    #cinco table {
+    font: 16px/35px "Cousine", sans-serif; 
+    width: 450px;}
+    #cinco .alinizq {
+    padding-right: 73px; }
+    }
+
+    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
 
 /* Ejemplo seis ---------*/
 #seis {
@@ -300,6 +463,17 @@ p   {
     font: 22px/20px 'Sintony', sans-serif;
     color: #e15b32;}
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
+    }
 
 /* Ejemplo siete ---------*/
 #siete {
@@ -326,6 +500,17 @@ p   {
     color: #893a21;
     padding-top: 10px; }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
+    }
 
 /* Footer ---------*/
 .footer {
@@ -339,6 +524,18 @@ p   {
     border-bottom-left-radius: 5px; }
     .footer .medianil {
     padding-right: 20px;    
+    }
+
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
     }
 
 /*Lineas guía*/

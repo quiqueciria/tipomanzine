@@ -43,7 +43,7 @@
   float: right;
 }
 
-/* Main Widths */
+/* Main Widths / Por encima de 768px*/
 .bit-1  { width: 100%; }
 .bit-2  { width: 50%; }
 .bit-3  { width: 33.33%; }
@@ -57,8 +57,8 @@
 .bit-11 { width: 9.09090909091%; }
 .bit-12 { width: 8.33%; }
 
-/* Landscape mobile & down */
-@media (max-width: 30em) {
+/* Landscape mobile & down / Entre 0 y 320px */
+@media (max-width: 320px) {
   .bit-1,
   .bit-2,
   .bit-3,
@@ -75,8 +75,8 @@
   }
 }
 
-/* Portrait tablet to landscape */
-@media (min-width: 30em) and (max-width: 50em) {
+/* Portrait tablet to landscape / Entre 320px y 480px */
+@media (min-width: 320px) and (max-width: 480px) {
   .bit-4,
   .bit-6,
   .bit-8,
@@ -96,8 +96,8 @@
   }
 }
 
-/* Landscape to small desktop */
-@media (min-width: 50em) and (max-width: 68.750em) {
+/* Landscape to small desktop / Entre 480px y 768px */
+@media (min-width: 480px) and (max-width: 768px) {
   .bit-2,
   .bit-7 {
     width: 100%;

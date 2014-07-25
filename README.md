@@ -26,7 +26,9 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 
 7. ~~Composión~~
 
-8. Ajustar cada uno de los ejemplos a responsive
+8. Ajustar cada uno de los ejemplos a responsive. --->Me quedan los dos últimos y el footer
+
+COMPROBAR TODOS LOS RESPONSIVES
 
 9. Comprobar el render de las tipografías. Investigar este proyecto que sirve las tipos desde un CDN creo http://brick.im/
 
