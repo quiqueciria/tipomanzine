@@ -30,3 +30,8 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 9. ~~Repasar los comportamientos responsives de uno en uno~~
 
 9. Limpiar código
+
+##Progreso
+1. Incluir la información arriba, más accesible.
+
+2. Añadir un menú y pensar como se van a acumular/mostrar las siguientes composiciones.
