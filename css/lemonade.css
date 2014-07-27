@@ -6,6 +6,8 @@
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 *
+* Modificated por Quique Ciria. www.quiqueciria.es
+*
 */
 
 *,
@@ -30,7 +32,6 @@
   display: table;
   clear: both;
 }
-
 
 /* Attribute selector */
 [class*='bit-'] {

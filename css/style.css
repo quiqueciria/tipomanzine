@@ -57,7 +57,9 @@ table {
 body {
   background: #e15b32; 
   font-family: "helvetica neue", helvetica, arial, sans-serif;
-  -webkit-text-size-adjust: 100%;}
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;}
 
 a   {
     color: inherit;
@@ -91,7 +93,7 @@ h6  {
 
 p   {
     font: 16px/20px Chivo, sans-serif;
-    color: #bfbfbf;}
+    color: #bfbfbf; }
     p a {
     border-bottom: 1px dotted #bfbfbf;
     padding-bottom: 2px; }
@@ -117,6 +119,21 @@ p   {
     position: relative;
     top: 2px;   }
 
+    /*Entre 0px y 320px*/
+    @media (max-width: 320px) {
+        #botoncodigo {
+        padding: 3px 0 3px 40px;}
+
+    }
+
+    /*Entre 320px y 480px*/
+    @media (min-width: 320px) and (max-width: 480px) {
+        #botoncodigo {
+        padding: 3px 0 3px 40px;}
+    }
+
+    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
+
 /*Cabecera---------------------------------------------*/
 #cabecera {
     margin-top: 10px;
@@ -137,7 +154,7 @@ p   {
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
     #cabecera {
-    padding: 110px 60px 20px; }
+    padding: 110px 40px 20px; }
     }    
     
     /*Entre 480px y 768px*/
@@ -151,7 +168,7 @@ p   {
 /*Estilo de los bloques de texto----------------------------*/
 /* Ejemplo uno ---------*/
 #uno {
-    margin-top: -9px;    
+    margin-top: -10px;    
     padding:80px 0px 80px 80px;
     background: #fff;}
     #uno p.heading {
@@ -168,41 +185,41 @@ p   {
     margin: 8px 0 1px 0; 
     color: #2b2a29; }
     #uno h2 {
-    max-width: 328px;
+    max-width: 348px;
     font: 20px/23px "Average", sans-serif;
     color: #53514f; }
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
-    #uno {
-    padding: 80px 0px 80px 30px; }
-    #uno p.heading {
-    max-width: 135px;
-    padding: 10px 10px 5px 8px;
-    line-height: 15px;  }
-    #uno h1 {
-    font: 26px/27px "Syncopate", sans-serif; }
-    #uno h2 {
-    max-width: 238px; }
-    }
+        #uno {
+        padding: 80px 0px 80px 30px; }
+        #uno p.heading {
+        max-width: 135px;
+        padding: 10px 10px 5px 8px;
+        line-height: 15px;  }
+        #uno h1 {
+        font: 26px/27px "Syncopate", sans-serif; }
+        #uno h2 {
+        max-width: 238px; }
+        }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
-    #uno {
-    padding: 80px 0px 80px 60px; }
-    #uno p.heading {
-    max-width: 245px;
-    padding: 10px 80px 5px 8px;
-    line-height: 15px;  }
-    #uno h1 {
-    font: 26px/27px "Syncopate", sans-serif; }
-    #uno h2 {
-    max-width: 238px; }
-    }
+        #uno {
+        padding: 80px 0px 80px 40px; }
+        #uno p.heading {
+        max-width: 245px;
+        padding: 10px 80px 5px 8px;
+        line-height: 15px;  }
+        #uno h1 {
+        font: 26px/27px "Syncopate", sans-serif; }
+        #uno h2 {
+        max-width: 238px; }
+        }
 
 /* Ejemplo dos ---------*/
 #dos {
-    margin-top: -15px;     
+    margin-top: -16px;     
     padding: 80px 35px 80px 80px;   
     background: #f7f7f7;}
     #dos .text {
@@ -238,27 +255,27 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
-    #dos {
-    padding: 80px 0px 80px 40px;}
-    #dos .text {    
-    margin-right: 20px; }
-    }
+        #dos {
+        padding: 80px 0px 80px 40px;}
+        #dos .text {    
+        margin-right: 20px; }
+        }
 
     /*Entre 320px y 480px*/
-    @media (min-width: 320px) and (max-width: 480px) {
-    #dos {
-    padding: 80px 0px 80px 60px; } 
-    #dos .text {    
-    margin-right: 20px; }
-    }
+        @media (min-width: 320px) and (max-width: 480px) {
+        #dos {
+        padding: 80px 0px 80px 50px; } 
+        #dos .text {    
+        margin-right: 30px; }
+        }
 
     /*Entre 480px y 768px*/
-    @media (min-width: 480px) and (max-width: 768px)  {
-    #dos {
-    padding: 80px 0px 80px 80px; }  
-    #dos .text {    
-    margin-right: 20px; }
-    }
+        @media (min-width: 480px) and (max-width: 768px)  {
+        #dos {
+        padding: 80px 0px 80px 90px; }  
+        #dos .text {    
+        margin-right: 20px; }
+        }
 
 /* Ejemplo tres ---------*/
 #tres {
@@ -267,8 +284,7 @@ p   {
     background: #fff;
     overflow: hidden;}
     #tres .text {
-    margin-top: -5px;
-    }
+    margin-top: -5px; }
     #tres h1  {
     font: 150px/145px 'Georgia', serif;
     font-weight: 400;
@@ -293,36 +309,36 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
-    #tres {
-    height: 395px;
-    }
-    #tres h1 {
-    font: 95px/80px 'Georgia', serif;   }
-    #tres p {
-    font: 25px/28px "helvetica", sans-serif;}
+        #tres {
+        height: 395px;
+        }
+        #tres h1 {
+        font: 95px/80px 'Georgia', serif;   }
+        #tres p {
+        font: 25px/28px "helvetica", sans-serif;}
         #tres p.credito {
         font: 15px/20px "Georgia", serif;}
-    }
+        }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
-    #tres {
-    height: 439px;
-    }
+        #tres {
+        height: 439px;
+        }
     #tres h1 {
-    font: 99px/95px 'Georgia', serif;   }
+        font: 99px/95px 'Georgia', serif;   }
     #tres p {
-    font: 25px/28px "helvetica", sans-serif;}
+        font: 25px/28px "helvetica", sans-serif;}
         #tres p.credito {
         font: 15px/20px "Georgia", serif;}
-    }
+        }
 
     /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
 
 /* Ejemplo cuatro ---------*/
 #cuatro {
     margin-top: -16px;
-    padding: 80px 0 80px 80px;
+    padding: 40px 0 80px 80px;
     background: #f7f7f7; }
     #cuatro h1  {
     font: 40px/35px 'Lilita One', sans-serif;
@@ -342,32 +358,36 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
-    #cuatro {
-    padding: 80px 0px 80px 40px;}
-    #cuatro h1 {
-    font: 30px/29px "Lilita One", sans-serif;
-    text-indent: -15px;}
-    #cuatro h6 {
-    margin-top: 8px;}
-    #cuatro p.heading {
-    font: 14px/19px "Aldrich", sans-serif;
-    margin-bottom: 2px;}
-    }
+        #cuatro {
+        padding: 40px 0px 80px 40px;}
+        #cuatro h1 {
+        font: 30px/29px "Lilita One", sans-serif;
+        text-indent: -15px;}
+        #cuatro h6 {
+        margin-top: 8px;}
+        #cuatro p.heading {
+        font: 14px/19px "Aldrich", sans-serif;
+        margin-bottom: 2px;}
+        }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
-    #cuatro {
-    padding: 80px 0px 80px 60px;}
-    #cuatro h1 {
-    font: 30px/29px "Lilita One", sans-serif;}
-    #cuatro h6 {
-    margin-top: 5px;}
-    #cuatro p.heading {
-    font: 14px/19px "Aldrich", sans-serif;
-    margin-bottom: 2px;}
-    }
+        #cuatro {
+        padding: 40px 0px 80px 40px;}
+        #cuatro h1 {
+        font: 30px/29px "Lilita One", sans-serif;}
+        #cuatro h6 {
+        margin-top: 5px;}
+        #cuatro p.heading {
+        font: 14px/19px "Aldrich", sans-serif;
+        margin-bottom: 2px;}
+        }
 
-    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
+    /*Entre 480px y 768px*/
+    @media (min-width: 480px) and (max-width: 768px)  {
+        #cuatro {
+        padding: 60px 0px 80px 80px;}
+        }
 
 
 /* Ejemplo  cinco ---------*/
@@ -382,7 +402,7 @@ p   {
     font: 34px/36px "Chivo", sans-serif;
     letter-spacing: 1px;
     color: #e15b32;
-    margin-bottom: 20px;}
+    margin-bottom: 5px;}
     #cinco table {
     font: 20px/40px "Cousine", sans-serif;
     width: 500px;
@@ -402,29 +422,31 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
-    #cinco .text {
-    padding-left: 40px; }
-    #cinco h1 {
-    font: 22px/22px "Chivo", sans-serif;    }
-    #cinco table {
-    font: 16px/35px "Cousine", sans-serif; 
-    width: 450px;}
-    #cinco .alinizq {
-    padding-right: 73px; }
-    }
+        #cinco .text {
+        padding-left: 40px; }
+        #cinco h1 {
+        font: 22px/22px "Chivo", sans-serif;    }
+        #cinco table {
+        font: 16px/35px "Cousine", sans-serif; 
+        width: 450px;}
+        #cinco .alinizq {
+        padding-right: 73px; }
+        }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
-    #cinco .text {
-    padding-left: 60px;}
-    #cinco h1 {
-    font: 25px/26px "Chivo", sans-serif;    }
-    #cinco table {
-    font: 16px/35px "Cousine", sans-serif; 
-    width: 450px;}
-    #cinco .alinizq {
-    padding-right: 73px; }
-    }
+        #cinco .text {
+        padding-top: 6px;
+        padding-left: 40px;}
+        #cinco h1 {
+        font: 22px/22px "Chivo", sans-serif; 
+        margin-bottom: 6px;}
+        #cinco table {
+        font: 16px/35px "Cousine", sans-serif; 
+        width: 450px;}
+        #cinco .alinizq {
+        padding-right: 73px; }
+        }
 
     /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
 
@@ -465,14 +487,24 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
+        #seis {
+        padding-left: 30px;  }
+        #seis .text {
+        margin-right: 20px;}
     }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
+        #seis {
+        padding-left: 20px;  }
+        #seis .text {
+        margin-right: 30px;}
     }
 
     /*Entre 480px y 768px*/
     @media (min-width: 480px) and (max-width: 768px)  {
+        #seis .text {
+        margin-right: 20px;}
     }
 
 /* Ejemplo siete ---------*/
@@ -481,7 +513,7 @@ p   {
     padding: 80px 0 80px 80px;   
     background: #fff; }
     #siete .text {
-    max-width: 420px;    }
+    max-width: 420px;}
     #siete h1 {
     font: 50px/51px "Oswald", sans-serif;
     color: #e15b32;
@@ -498,19 +530,46 @@ p   {
     #siete h6 {
     font: 21px/25px "Enriqueta", serif;
     color: #893a21;
-    padding-top: 10px; }
+    padding-top: 10px;
+        padding-right: 10px;}
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
+        #siete {
+        padding: 80px 0 80px 40px;   }
+        #siete .text {
+        margin-right: 20px;}
+        #siete h1 {
+        font: 30px/31px "Oswald", sans-serif;
+        padding: 5px 0 5px 0;
+        margin-left: -1px;}
+        #siete h4 {
+        font: 15px/16px "Enriqueta", serif; }
+        #siete h5 {
+        font: 19px/16px "Oswald", sans-serif;}
+        #siete h6 {
+        font: 17px/20px "Enriqueta", serif;}
     }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
+        #siete {
+        padding: 80px 0 80px 40px;   }
+        #siete .text {
+        margin-right: 10px;}
+        #siete h1 {
+        font: 31px/34px "Oswald", sans-serif;
+        padding: 5px 0 5px 0;
+        margin-left: -2px;}
+        #siete h4 {
+        font: 16px/17px "Enriqueta", serif; }
+        #siete h5 {
+        font: 19px/24px "Oswald", sans-serif;}
+        #siete h6 {
+        font: 18px/21px "Enriqueta", serif;}
     }
 
-    /*Entre 480px y 768px*/
-    @media (min-width: 480px) and (max-width: 768px)  {
-    }
+    /*Entre 480px y 768px / No hay porque funciona bien a este tamaño*/
 
 /* Footer ---------*/
 .footer {
@@ -528,14 +587,20 @@ p   {
 
     /*Entre 0px y 320px*/
     @media (max-width: 320px) {
+        .footer {
+        padding: 30px 35px 30px 40px;  }
     }
 
     /*Entre 320px y 480px*/
     @media (min-width: 320px) and (max-width: 480px) {
+        .footer {
+        padding: 30px 35px 30px 40px;  }
     }
 
     /*Entre 480px y 768px*/
     @media (min-width: 480px) and (max-width: 768px)  {
+        .footer {
+        padding: 30px 35px 30px 80px;  }
     }
 
 /*Lineas guía*/

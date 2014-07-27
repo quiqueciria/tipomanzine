@@ -6,7 +6,7 @@ Tipomanzine es una recopilación de composiciones tipográficas con webfonts bas
 
 Tipomanzine está hecho con la intención de aprender y compartir, por lo que debajo de cada ejemplo encontrarás un botón para ver y trastear con el código en CodePen.
 
-Tanto las composiciones como el código son completamente libres de uso, asi que por ejemplo, si estás diseñando un blog, sírvete de utilizar alguna composición para usarla en el diseño de los posts si lo ves útil.
+Tanto las composiciones, como el código son completamente libres de uso, asi que por ejemplo, si estás diseñando un blog, sírvete de utilizar alguna composición para usarla en el diseño.
 
 Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida.
 
@@ -17,8 +17,7 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 
 3. ~~Composión~~
 
-4. ~~Mejorar el botón de "Verlo en CodePen"  
-· Utilizar una buena tipografía de iconos, ahora hay una fuente que solo incluye la flecha.~~
+4. ~~Mejorar el botón de "Verlo en CodePen"~~
 
 5. ~~Composión~~
 
@@ -26,10 +25,8 @@ Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida
 
 7. ~~Composión~~
 
-8. Ajustar cada uno de los ejemplos a responsive. --->Me quedan los dos últimos y el footer
+8. ~~Ajustar cada uno de los ejemplos a responsive. Incluido ViewPort. Realmente debajo de 320px no hay casi nada es lo mínimo, pero justo en la frontera de 320px hacia arriba es donde hay que tener cuidado porque es donde están la mayoría de los móviles.~~
 
-COMPROBAR TODOS LOS RESPONSIVES
+9. ~~Repasar los comportamientos responsives de uno en uno~~
 
-9. Comprobar el render de las tipografías. Investigar este proyecto que sirve las tipos desde un CDN creo http://brick.im/
-
-9. Composión
+9. Limpiar código
