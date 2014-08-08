@@ -1,37 +1,16 @@
 Tipomanzine
 ===========
 
-Tipomanzine es una recopilación de composiciones tipográficas con webfonts basado en la idea original de Chad Mazzola y su showcase <a href="http://hellohappy.org/beautiful-web-type/" target="_blank">"Beautiful Web Type".</a>
+Tipomanzine es una recopilación de composiciones tipográficas con webfonts, basado en la idea original de Chad Mazzola <a href="http://hellohappy.org/beautiful-web-type/">“Beautiful Web Type”</a>, con el objetivo de poder ver la posibilidades que tienen las webfonts a la hora de usarlas en sitios webs, ver como están compuestas, modificarlas y usarlas libremente donde quieras.
 
+La recopilación está formada composiciones con un enlace debajo hacia <a href="http://codepen.io/quiqueciria/">Codepen</a> donde se puede ver y modificar el código usado.
 
-Tipomanzine está hecho con la intención de aprender y compartir, por lo que debajo de cada ejemplo encontrarás un botón para ver y trastear con el código en CodePen.
+Tipomanzine está hecho con la rejilla CSS <a href="http://lemonade.im/">“Lemonade”</a> y editado completamente con <a href="http://brackets.io/">“Bracket”</a>, la mayoría de las tipos usadas son de <a href="http://www.google.com/fonts">Google Fonts</a> y para los textos, escogí fragmentos relacionados con el ciclismo español sacados de las hemerotecas de algunos periódicos españoles.
 
-Tanto las composiciones, como el código son completamente libres de uso, asi que por ejemplo, si estás diseñando un blog, sírvete de utilizar alguna composición para usarla en el diseño.
+Una de las finalidades de Tipomanzine es ver las ventajas que tienen las webfonts. Al igual que en papel, la tipografía en la web ofrece prácticamente las mismas posibilidades. No sé si debe al desconocimiento o quizás por desinterés, pero en ocasiones no se le presta la suficiente atención, lo cual nos lleva a encontrarnos verdaderas *salvajadas* en la red.
 
-Tipomanzine tiene muchos fallos y cualquier mejora o modificación es bienvenida.
+Creo que es interesante destacar la posibilidad de ver el código de cualquier ejemplo en <a href="http://codepen.io/quiqueciria/">Codepen</a>, además de ver como está hecho, poder modificarlo en vivo para ver que ocurre.
 
-##Progreso
-1. ~~Edición de textos~~
+Como otros proyectos, Tipomanzine seguro que tiene muchos fallos y errores, así que si lo deseas puedes aportar, modificar o mejorar cualquier cosa que estimes oportuno.
 
-5. ~~Ajustar a línea base para Firefox y Chrome en el 2º ejemplo a dos columnas que titula así "FEDERICO MARTÍN BAHAMONTES". En <a href="http://practice.typekit.com/lesson/typography-is-how-text-looks/">Typekit lessons</a>, hay un ejemplo de dos columnas alineado a rejilla que puede ser interesante consultar.~~
-
-3. ~~Composión~~
-
-4. ~~Mejorar el botón de "Verlo en CodePen"~~
-
-5. ~~Composión~~
-
-6. ~~Hacer la web una estructura de rejilla para poder ir ampliando los ejemplos y hacer que se comporte de manera responsive. Probando el framework http://lemonade.im/~~
-
-7. ~~Composión~~
-
-8. ~~Ajustar cada uno de los ejemplos a responsive. Incluido ViewPort. Realmente debajo de 320px no hay casi nada es lo mínimo, pero justo en la frontera de 320px hacia arriba es donde hay que tener cuidado porque es donde están la mayoría de los móviles.~~
-
-9. ~~Repasar los comportamientos responsives de uno en uno~~
-
-9. Limpiar código
-
-##Progreso
-1. Incluir la información arriba, más accesible.
-
-2. Añadir un menú y pensar como se van a acumular/mostrar las siguientes composiciones.
+Mi idea es que el proyecto pueda crecer y ser útil, por lo que si tienes cualquier tipo de feedback te daré enormes gracias por ello.
